@@ -1,0 +1,19 @@
+[package]
+name = "rs-arrow-ipc-stream-cat"
+version = "0.1.0"
+edition = "2021"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"
+
+[dependencies]
+arrow = { version = "56", features = ["prettyprint"] }
+arrow-array = "56"
+arrow-cast = "56"
+arrow-ipc = "56"
+arrow-schema = "56"
+clap = { version = "4", features = ["derive"] }
