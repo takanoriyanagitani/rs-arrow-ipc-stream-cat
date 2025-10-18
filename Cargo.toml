@@ -5,10 +5,10 @@ edition = "2021"
 
 repository = "https://github.com/takanoriyanagitani/rs-arrow-ipc-stream-cat"
 license = "Apache-2.0"
-description = "CLI to show the ipc stream.",
-keywords = ["arrow", "ipc", "stream"],
-homepage = "https://github.com/takanoriyanagitani/rs-arrow-ipc-stream-cat",
-documentation = "https://docs.rs/rs-arrow-ipc-stream-cat/latest",
+description = "CLI to show the ipc stream."
+keywords = ["arrow", "ipc", "stream"]
+homepage = "https://github.com/takanoriyanagitani/rs-arrow-ipc-stream-cat"
+documentation = "https://docs.rs/rs-arrow-ipc-stream-cat/latest"
 
 [lints.rust]
 unsafe_code = "forbid"
